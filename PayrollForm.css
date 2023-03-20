@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.header{
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    border: 0px darkblue;
+
+}
+
+.logo-content{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px darkblue;
+    width: 80%;
+
+}
+
+.emp-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:green;
+    text-transform: capitalize;
+    letter-spacing: 0px;
+}
+
+.pay-text{
+    color: darkgreen;
+}
+
+*{
+    box-sizing: border-box;
+}
