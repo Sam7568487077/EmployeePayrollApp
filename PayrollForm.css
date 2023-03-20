@@ -41,3 +41,63 @@ body{
 *{
     box-sizing: border-box;
 }
+
+.form-content{
+    min-height: calc(100%-80px);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.form{
+    width: 65px;
+    padding: 44px 60px;
+    background-color: white;
+    box-shadow: 0px 3px 6px grey;
+    border: 1px solid gray;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head{
+    font: normal bold 24px;
+    letter-spacing: 0px;
+    color: black;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+
+.label{
+    min-width: 140px;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.text{
+    font-size: 16px;
+    color: lightseagreen;
+    opacity: 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input{
+    width: 100%;
+    padding: 12%;
+    border: 1px solid lightgreen;
+    border-radius: 4px;
+    resize: vertical;
+}
